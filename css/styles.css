@@ -138,6 +138,12 @@ a {
     background-size: cover;
     
 }
+@media screen and (min-resolution: 192dpi) {
+    .main-heade {
+        background-image: (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/hero-backround@2x.jpg);
+    }
+}
 
 .main-button {
     background: #4d5ae5;
@@ -675,7 +681,7 @@ a {
 
 .modal-form {
     position: relative;
-    padding: 72px 24px 24px;
+
 }
 
 .modal-title {
@@ -802,8 +808,6 @@ a {
 .policy {
     margin-bottom: 24px;
 }
-
-.policy-checkbox {}
 
 .lable-checkbox {
         font-weight: 400;
