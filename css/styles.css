@@ -900,5 +900,53 @@ a {
             letter-spacing: 0.04em;
             color: #434455;
     }
+
+    .main-heade {
+        background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/hero-background-t-@1x.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .criterias-icons-container {
+        display: none;
+    }
+
+    .main-criterias-title {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
+    }
+
+    .main-criterias-items {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        
+    }
+
+    .main-criteriars-block {
+        width: calc((100% - 24px) / 2);
+        
+    }
+
+    .main-criterias-page {
+            text-align: left;
+            /* width: 356px; */
+        
+    }
     
+    .container {
+        margin: 0 auto;
+    }
+}
+
+@media screen (min-width: 768px) and (min-resolution: 192dpi) {
+    .main-heade {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/hero-background-t-@2x.jpg);
+        }
 }
