@@ -879,6 +879,10 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+body {
+    min-width: 768px;
+}
+
     .page-header .container {
         display: flex;
         align-items: center;
@@ -935,14 +939,62 @@ a {
 
     .main-criterias-page {
             text-align: left;
-            /* width: 356px; */
         
     }
     
     .container {
         margin: 0 auto;
     }
-}
+
+   
+
+    .team-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .team-icon {
+        width: 264px;
+    }
+
+    
+
+    .our-portfolio-lists {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .portfolio-icon {
+        width: 356px;
+    }
+
+    .footer-section {
+        min-width: 768px;
+        min-height: 456px;
+    }
+
+    .logo-section {
+        margin: 0 auto;
+        padding-bottom: 72px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: -108px;
+    }
+
+    .social-media-container {
+        margin-right: 164px;
+    }
+
+    .subscribe-wrapper {
+        margin-left: 39px;
+    }
+
 
 @media screen (min-width: 768px) and (min-resolution: 192dpi) {
     .main-heade {
