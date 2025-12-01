@@ -530,7 +530,8 @@ a {
 
 .footer-container {
     display: flex;
-    align-items: baseline;
+    justify-content: space-between;
+    padding: 0 156px;
 }
 
 .logo .footer-logo .logo-part {
@@ -1007,18 +1008,16 @@ a {
 
 
     .footer-container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 108px;
     }
 
-    .social-media-container {
-        margin-right: 164px;
-    }
+    
 
     .subscribe-wrapper {
-        margin-left: 108px;
-    }
+        margin: 72px 0 0;
+    } 
 
 }
 
@@ -1216,6 +1215,7 @@ a {
 }
 
   .modal-overlay-mobile {
+    background-color: #fff;
       position: fixed;
       top: 0;
       left: 0;
