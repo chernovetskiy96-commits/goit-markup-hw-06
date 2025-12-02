@@ -988,7 +988,7 @@ a {
 
     .logo-section {
         width: 264px;
-        margin: 0 24px 72px 108px;
+        margin: 0 24px 72px 0;
     }
 
     .our-portfolio-lists {
@@ -1013,11 +1013,9 @@ a {
     padding: 0 108px;
     }
 
-    
-
     .subscribe-wrapper {
-        margin: 72px 0 0;
-    } 
+        margin: 0;
+    }
 
 }
 
@@ -1133,17 +1131,16 @@ a {
          }
     
       .footer-container {
-             display: block;
-             position: relative;
-             top: 96px;
-             left: 0;
-         }
+             display: flex;
+             flex-wrap: wrap;
+             justify-content: center;
+      }
 
      .logo-section {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 96px;
+        margin: 96px 0 0;
      }
 
     .logo, .footer-logo {
@@ -1155,6 +1152,11 @@ a {
         flex-direction: column;
         align-items: center;
         margin: 72px 0 0;
+     }
+
+     .social-media-page {
+        min-width: 208px;
+        text-align: center;
      }
 
      .subscribe-wrapper {
